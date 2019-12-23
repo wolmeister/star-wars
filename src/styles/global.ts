@@ -30,7 +30,9 @@ export default createGlobalStyle`
     background: ${props => props.theme.colors.background};
     overflow-x: hidden;
     max-width: 100%;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
+
+    overflow: hidden;
   }
 
   html, body, input, button {
@@ -55,5 +57,19 @@ export default createGlobalStyle`
     font: inherit;
     cursor: pointer;
     outline: inherit;
+  }
+
+ ::-webkit-scrollbar-track {
+    border: 1px solid black;
+    background-color: rgba(0,0,0, 0.5);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0,0,0, 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${props => props.theme.colors.primary}
   }
 `;
