@@ -22,6 +22,7 @@ export const TabText = styled.span<TabItemProps>`
   padding-left: 15px;
   transition: color 0.5s;
   color: ${props => (props.current ? props.theme.colors.primary : '')};
+  user-select: none;
 
   @media (max-width: 1175px) {
     display: none;

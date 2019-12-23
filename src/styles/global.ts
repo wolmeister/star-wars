@@ -62,14 +62,17 @@ export default createGlobalStyle`
  ::-webkit-scrollbar-track {
     border: 1px solid black;
     background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
   }
 
   ::-webkit-scrollbar {
     width: 10px;
     background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: ${props => props.theme.colors.primary}
+    background-color: ${props => props.theme.colors.primary};
+    border-radius: 5px;
   }
 `;
