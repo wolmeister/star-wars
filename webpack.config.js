@@ -13,6 +13,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   devtool: 'source-map',
   resolve: {
@@ -40,10 +41,19 @@ module.exports = {
         test: /\.js$/,
         loader: 'source-map-loader',
       },
+      {
+        test: /\.(jpg|png|svg)$/,
+        use: {
+          loader: 'file-loader',
+        },
+      },
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './public/index.html' }),
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+      favicon: './public/favicon.ico',
+    }),
     new webpack.NamedModulesPlugin(),
   ],
   devServer: {
