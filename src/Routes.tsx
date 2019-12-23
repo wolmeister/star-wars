@@ -1,13 +1,17 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Home from '~/pages/Home';
+import Film from '~/pages/Film';
 
 const routes = [
   {
-    component: Home,
+    component: () => <Redirect to="films/1" />,
     path: '/',
     exact: true,
+  },
+  {
+    component: () => <Film />,
+    path: '/films/:filmId',
   },
 ];
 
