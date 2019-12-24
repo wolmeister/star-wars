@@ -11,7 +11,7 @@
     "target": "es6",
     "allowJs": false,
     "jsx": "react",
-    "typeRoots": ["./src/types"],
+    "typeRoots": ["./src/types", "node_modules/@types"],
     "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"]

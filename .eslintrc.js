@@ -3,6 +3,7 @@ module.exports = {
     es6: true,
     browser: true,
     node: true,
+    'jest/globals': true,
   },
   extends: [
     'airbnb',
@@ -18,7 +19,14 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'react', 'prettier'],
+  plugins: [
+    'jest',
+    '@typescript-eslint',
+    'import',
+    'react-hooks',
+    'react',
+    'prettier',
+  ],
   rules: {
     'class-methods-use-this': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
