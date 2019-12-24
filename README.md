@@ -33,4 +33,4 @@ The application runs on the port 3000 by default.
 ## Other commands
 
 - `yarn build` - builds the production version of the app
-- `yarn test` - run all the tests
+- `yarn jest` - run all the tests
