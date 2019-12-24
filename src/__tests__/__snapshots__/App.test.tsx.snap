@@ -3,52 +3,168 @@
 exports[`App renders correctly 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c6 {
+  position: relative;
+  overflow: hidden;
+  height: 92px;
+}
+
+.c9 {
+  height: 10px;
+  position: absolute;
+  background-color: #FFE81F;
+  top: calc(50% - 5px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.c8 {
+  height: 10px;
+  position: absolute;
+  background-color: #C4C4C4;
+  top: calc(50% - 5px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.c10 {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 20px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #ffe81f;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.c11 {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 20px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #ffe81f;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.c0 {
+  background-image: url(test-file-stub);
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.c2 {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+
+.c3 {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.c4 {
+  background-color: rgba(48,48,48,0.85);
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+}
+
+.c5 {
+  padding: 15px;
+  margin-top: auto;
+}
+
+<body>
     <div>
       <div
-        class="sc-hMqMXs eAZbBk"
+        class="c0"
       >
         <div
-          class="sc-kEYyzF bWrbfR"
+          class="c1"
         >
           <div
-            class="sc-kkGfuU eJiDXk"
+            class="c2"
           >
             <img
-              class="sc-iAyFgw jrQOOC"
+              class="c3"
               src="test-file-stub"
             />
             <div
-              class="sc-hSdWYo vEDBE"
+              class="c4"
               style="height: 0px;"
             />
             <div
-              class="sc-eHgmQL jmEFwa"
+              class="c5"
             >
               <div
-                class="sc-bdVaJa fYJyil"
+                class="c6"
               >
                 <div
-                  class="sc-bxivhb bojDWV"
+                  class="c7"
                   style="transform: none;"
                 >
                   <div
-                    class="sc-bwzfXH sc-htpNat iqsgvA"
+                    class="c8"
                     color="#C4C4C4"
                     style="width: 0px;"
                   />
                   <div
-                    class="sc-bwzfXH bYnwOI"
+                    class="c9"
                     color="#FFE81F"
                     style="width: 0px;"
                   />
                 </div>
                 <div
-                  class="sc-gzVnrw ibZhkv"
+                  class=""
                   style="opacity: 0;"
                 >
                   <button
-                    class="sc-htoDjs jnpWqT"
+                    class="c10"
                     style="opacity: 0;"
                   >
                     <img
@@ -57,7 +173,7 @@ Object {
                     />
                   </button>
                   <button
-                    class="sc-htoDjs ijxUTm"
+                    class="c11"
                     style="opacity: 0;"
                   >
                     <img
